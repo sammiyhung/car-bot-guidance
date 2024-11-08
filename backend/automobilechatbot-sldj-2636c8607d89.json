@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "automobilechatbot-sldj",
+  "private_key_id": "2636c8607d89733a00ad9d3e5328737c7391df98",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDtMGrWhvJselc\n5yxZBNI3lKnzruK3S5rhodHVCWkYTovHduVEFfG/ceFHkou1VXypG3g1ZN3ljDqC\ndtwV8H4MHXED1K17w3bMEDoh6TB7NA2d9aWqG/ddaPQmpZlhW6Ay4W05TwneJQYS\nKsF7pEHeMuHujbnunbPKMqP6+HOthkcv3GeIWK/iVZuMehnPdaC9pJfqt+Lgbuvx\niiMJbY0pOKXm9vvp720E0ZEYPApXcGheDnpRaTmUwyfPYGZUMq/KAdIjWCSuKwiF\naD8EyVwwO5W4X6pW719u5j6HqTSzJ/+rKJhzZaRESX2cs7mC2+FS3LY3gVqSP/PM\nm0e8P2oTAgMBAAECggEABTZfwCIWwmD4L67Cih5sQOm3OxPJ2wrq9Z57ObrV7z1M\nUMQ0aANTnH86ek8HZI2B0/k00us8U7xP5KCozPbKTKVOGMWF11mF5Pp7qeKNlYJ1\n6GKeBnFXPcgpVIwtkR/BHQnPAGs//ogq6Ln1zEa8MGBXjyR8MsRFgRmnL2yFnDX+\n1Z4kOAQpetmVOk14WffFgX8qW7Wp2xPU1V4gYwEWd032K8KGv6b36RJe7eThZRgh\n/xN0KO1nsBOpeivpGdmI+/oL6P2kdsEqvN+IOWoq+Sa7gzFhWae4gG9rcosXjBsj\niTGBh2uPTZF96IWa+rxhISJOdmGt3rJvwHCu8tOR5QKBgQD8qbB4MnzA6hcKmMgE\n5z1sWOFPKkiYf5g3/x5gfqQQTa6ycc6Ch+iEy3BiQMeWm8sBVhVKw6E/X1lcEuqq\n6Dr7x7RtC5eEb3YX097GAjixuNIyg1CxvZabZDlDh5x/WKTc6dnIGJ4atXvB3Mxe\nJ38Qf8/ryYivVNFYF7px1RTs5QKBgQDGSnu+U6040AywgFD34IBwofgtatqQmC0s\neYDXka8Xv9SIXH1kBGybzpFcj8PBGfI9kXokIa5eKXt19ntD7TsefAco9J51zRjk\nXjFjKkDTC5WVFWUhEqBjOKqBIPg8U+KXq4W03byBQKmVnYJhGZrftW73pcF8no0f\nInHmxI0DlwKBgDKADCiKFstMPpy8msX4HhvIzAfRsL7iSd9vW3f39/zWOgOqoZcP\naRcZvnW08u+UZgf3V7wgy9rpyOeRVFwinJ90dAiTl4495QGwNEepbAGBqmm0O227\nMh4O8y8fLNV7N0B8cS4AVaGLAphl9GchR9FZaop7Npmsv0b3Pym/aDZNAoGAAv1E\neE4SonSgfFiy38nGpewLLcQan2tr4uvCAX30wcrmjVe3nDZk3MR0dIzGSrb1a/Ax\ngzHuywSdE94vZYrCBWehRADMEsKQyYCSBgixCX13N9QmviTlvhkwmNnCZEZveBHh\n5iQhn2E2LUc+m/Ai4ZR+o8Uf8Z0CS6HdTblQ1ukCgYEAw48dABYLnZkdwRpgNY1r\nF+20SJD68zJhlAJfehyq38kuU+y6RQA9HZqXiYCGsyxDLKcnpU45ruJWvv52zwMr\nd0iqtXRpjG35/6nRST1yAIOYFX0V55yOBck5GbLutP0L68kscae+SPpPlo7J4Tnm\nMmmj5j9xiJQAcRu5BAlTBLg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "automobilechatbot@automobilechatbot-sldj.iam.gserviceaccount.com",
+  "client_id": "109047034912328958295",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/automobilechatbot%40automobilechatbot-sldj.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
