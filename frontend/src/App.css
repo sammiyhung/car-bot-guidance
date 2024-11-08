@@ -1,0 +1,108 @@
+/* Main app container */
+.app-container {
+  @apply flex flex-col min-h-screen;
+}
+
+/* Header styling */
+.header {
+  @apply flex justify-between items-center bg-blue-600 p-4 text-white text-lg font-semibold;
+}
+
+.header-title {
+  @apply text-2xl;
+}
+
+.contact-btn {
+  @apply bg-blue-700 hover:bg-blue-500 transition-colors duration-300 py-2 px-4 rounded-lg;
+}
+
+/* Main section styling */
+.main-section {
+  @apply flex flex-1 p-4 gap-4 bg-gray-100;
+}
+
+/* Left section (car recommendations & register form) */
+.left-section {
+  @apply flex flex-col w-full md:w-2/3;
+}
+
+/* Flip Card Container */
+.flip-card {
+  @apply relative w-full h-64 perspective-1000; /* Adding perspective to the parent */
+}
+
+.flip-card-inner {
+  @apply absolute w-full h-full transition-transform duration-700 preserve-3d; /* 3D transformation */
+}
+
+.flip-card:hover .flip-card-inner {
+  @apply rotate-y-180; /* Flip the card on hover */
+}
+
+/* Front Face */
+.flip-card-front {
+  @apply absolute w-full h-full backface-hidden bg-white text-center p-4 rounded-lg shadow-lg;
+}
+
+/* Back Face */
+.flip-card-back {
+  @apply absolute w-full h-full backface-hidden bg-blue-600 text-white text-center p-4 rounded-lg rotate-y-180; /* Flip the back face by default */
+}
+
+
+/* 3x3 grid for recommended cars */
+.cars-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+/* Register form */
+.register-form {
+  @apply bg-white shadow-lg rounded-lg p-6 mt-4;
+}
+
+/* Right section (chatbot) */
+.chat-section {
+  @apply flex flex-col w-full md:w-1/3 bg-white shadow-lg rounded-lg;
+}
+
+.chat-history {
+  @apply flex-1 p-4 overflow-y-auto space-y-2 bg-gray-100 rounded-lg h-64;
+}
+
+.user-msg {
+  @apply text-right bg-blue-500 text-white p-2 rounded-lg inline-block max-w-xs;
+}
+
+.bot-msg {
+  @apply text-left bg-gray-300 text-black p-2 rounded-lg inline-block max-w-xs;
+}
+
+.chat-input {
+  @apply flex items-center bg-gray-100 p-4;
+}
+
+.chat-input input {
+  @apply flex-1 p-2 border border-gray-300 rounded-lg;
+}
+
+.send-btn {
+  @apply bg-blue-500 text-white p-3 rounded-full ml-2 hover:bg-blue-700 transition-colors;
+}
+
+/* Footer styling */
+.footer {
+  @apply bg-blue-600 text-white p-4 text-center;
+}
+
+.footer-text {
+  @apply text-sm;
+}
+
+/* Animations */
+.pulsate {
+  animation: pulsate 1.5s infinite;
+}
+
+.bot-loading {
+  @apply text-gray-500 italic;
+}
