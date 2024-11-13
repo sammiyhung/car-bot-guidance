@@ -3,10 +3,10 @@ const uuid = require('uuid');
 const path = require('path');
 
 const sessionClient = new dialogflow.SessionsClient({
-  keyFilename: path.join(__dirname, 'automobilechatbot-sldj-2636c8607d89.json'),
+  keyFilename: path.join(__dirname, 'automobilechatbot-sldj-92b74ce2e462.json'),
 });
 
-const projectId = 'automobilechatbot-sldj'; // Replace with your Dialogflow project ID
+const projectId = 'automobilechatbot-sldj'; //
 
 async function detectIntent(queryText) {
   const sessionId = uuid.v4();
